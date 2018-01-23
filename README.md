@@ -2,8 +2,8 @@
 
 See PR #XXXX
 
-- [ ] Can import .gql and .graphql files
-- [ ] Works with Apollo
+- [x] Can import .gql and .graphql files
+- [x] Works with Apollo
 - [ ] Works with Relay Modern
 
 # Running
