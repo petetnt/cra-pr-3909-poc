@@ -1,0 +1,41 @@
+{
+  "name": "test-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.5",
+    "apollo-client": "^2.2.0",
+    "apollo-link-http": "^1.3.2",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3",
+    "graphql-tag": "^2.6.1",
+    "jest-transform-graphql": "^2.1.0",
+    "npm-run-all": "^4.1.2",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-dom": "^16.2.0",
+    "react-scripts": "/Users/Nykanen/Projects/oss/create-react-app/packages/react-scripts/react-scripts-1.1.0.tgz"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-backend": "node index.js",
+    "start-all": "run-p start-backend start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  }
+}

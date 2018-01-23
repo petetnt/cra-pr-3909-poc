@@ -1,0 +1,6 @@
+{
+  feed(username: "testusernamegql") {
+    id
+    name
+  }
+}
